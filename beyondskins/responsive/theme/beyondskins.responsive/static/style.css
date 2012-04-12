@@ -70,7 +70,7 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 #searchbt, #nav #seletor {display:none;}
 
 /* Searchbox */
-#portal-searchbox {float: right; margin: 3.5%  1% 0 0; width:180px; font-size: 1em;}
+#portal-searchbox {float: right; margin: 3.5%  1% 0 0; width:185px; font-size: 1em;}
 #portal-searchbox  form, #portal-searchbox  form .LSBox  {font-size: 100%;}
 /*#portal-searchbox #searchGadget {
 	padding: 1.2% 0  1.1% 0;
