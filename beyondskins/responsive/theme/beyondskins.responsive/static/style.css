@@ -80,7 +80,14 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 	font-size:1.1em;
 }*/
 /*#portal-searchbox .searchButton {font-size:0.8em; width: 27%; padding:1.899% 0  0.8% 0; text-align:center;}*/
-#LSResult {z-index:1; margin-top: 0.5%;}
+#LSResult {border:1px solid #6d6964; border-top:none; margin-top: 22px; width:272px; z-index:1; right:auto; left:76px; }
+#LSResult fieldset {border:none; margin-top:0px; padding:0px; }
+#LSResult .LSDescr {padding:0px 25px;}
+#LSResult fieldset #livesearchLegend {display:none; }
+#LSResult fieldset ul li.LSRow {border:1px solid #fff; padding:0px; width:270px; }
+#LSResult fieldset ul li.LSRow a {display:block; padding:5px 15px; }
+#LSResult fieldset ul li.LSRow a:Hover {background-color:#edeae6; display:block; padding:5px 15px; }
+#LSResult fieldset ul li.LSRow:last-child {text-align:right; }
 
 /*footer*/
 #footer {clear: left; padding: 2em;}
