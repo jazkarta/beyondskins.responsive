@@ -3,7 +3,7 @@ beyondskins.Responsive - Diazo responsive theme for PLone
 Simples Consultoria - www.simplesconsultoria.com.br
 ******************************/
 /* reset */
-* {margin:0; padding:0; list-style:none; vertical-align:baseline;}
+* {margin:0; padding:0; vertical-align:baseline;}
 
 /************** Responsive Diazo Magic ************************/
 
@@ -12,31 +12,33 @@ body {background: #ffffff url(bg.jpg) top repeat-x;}
 #header {background: transparent url(header.png) top center no-repeat;}
 
 /* Colors and fonts */
-body {color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 62.5%;}
-a:link, a:visited, #content a:link, dl.portlet a:link {color:#205C90;}
-a:hover {color:#000;}
-h1, h2, h3, h4, h5, h6 {font-family: Arial, Helvetica, sans-serif;}
-h1 {color: #205C90;}
-h2, h3, h4, h5, h6 {color: #636466;}
+body {color: #000000; font-family: "Lucida Grande",Arial, Helvetica, sans-serif; font-size: 62.5%;}
+a:link, a:visited, #content a:link, dl.portlet a:link {color:#7e5713;}
+a:hover {color:#b87900;}
 #wrapper { width:auto; margin: 0 auto; max-width: 90%;	font-size: 1.1em;}
-#main {background:#fff; font-size: 1.3em; padding: 1em 0;}
+<<<<<<< HEAD
+#main {font-size: 1.3em; padding: 1em 0;}
+=======
+#main {background:transparent; font-size: 1.3em; padding: 1em 0;}
+>>>>>>> Base Styling Updates
 
 #nav {background: #205C90;	text-align: left; color: #ffffff;}
 #nav a {color: #ffffff;}
 #nav a:hover, #nav li.selected a {padding-top: 1em;background: #ff9900;}
-
+/*
 #portal-searchbox #searchGadget {
 border-width: 1px;
 border-style: solid;
 border-color: #597a97;
-}
+}*/
+/*
 #portal-searchbox .searchButton {
 background:#636466;
 color: #ffffff;
 border-width: 1px;
 border-style: solid;
 border-color: #c8c8c9;
-}
+}*/
 #footer {background: #205C90; color: #fff;;}
 #footer a:link {color:#fff;;}
 #footer a:hover {color:#fff;;}
@@ -46,8 +48,6 @@ border-color: #c8c8c9;
 /****************** Basic Stuff ***********************/
 
 #content {font-size: 90%;}
-p {line-height: 1.8em; margin: 0 0 1em 0;}
-h1, h2, h3 {margin: 0.5em 0 0.5em;}
 .hidden {display: none;} 
 .clear {clear: both;}
 .pb-ajax, .pb-image, 
@@ -70,17 +70,24 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 #searchbt, #nav #seletor {display:none;}
 
 /* Searchbox */
-#portal-searchbox {float: right; margin: 3.5%  1% 0 0; width:24%; font-size: 1em;}
+#portal-searchbox {float: right; margin: 3.5%  1% 0 0; width:185px; font-size: 1em;}
 #portal-searchbox  form, #portal-searchbox  form .LSBox  {font-size: 100%;}
-#portal-searchbox #searchGadget {
+/*#portal-searchbox #searchGadget {
 	padding: 1.2% 0  1.1% 0;
 	margin-right: 0.6%;
 	text-indent: 2%;
 	width: 72%;
 	font-size:1.1em;
-}
-#portal-searchbox .searchButton {font-size:0.8em; width: 27%; padding:1.899% 0  0.8% 0; text-align:center;}
-#LSResult {z-index:1; margin-top: 0.5%;}
+}*/
+/*#portal-searchbox .searchButton {font-size:0.8em; width: 27%; padding:1.899% 0  0.8% 0; text-align:center;}*/
+#LSResult {border:1px solid #6d6964; border-top:none; margin-top: 22px; width:272px; z-index:1; right:auto; left:76px; }
+#LSResult fieldset {border:none; margin-top:0px; padding:0px; }
+#LSResult .LSDescr {padding:0px 25px;}
+#LSResult fieldset #livesearchLegend {display:none; }
+#LSResult fieldset ul li.LSRow {border:1px solid #fff; padding:0px; width:270px; }
+#LSResult fieldset ul li.LSRow a {display:block; padding:5px 15px; }
+#LSResult fieldset ul li.LSRow a:Hover {background-color:#edeae6; display:block; padding:5px 15px; }
+#LSResult fieldset ul li.LSRow:last-child {text-align:right; }
 
 /*footer*/
 #footer {clear: left; padding: 2em;}
