@@ -16,11 +16,7 @@ body {color: #000000; font-family: "Lucida Grande",Arial, Helvetica, sans-serif;
 a:link, a:visited, #content a:link, dl.portlet a:link {color:#7e5713;}
 a:hover {color:#b87900;}
 #wrapper { width:auto; margin: 0 auto; max-width: 90%;	font-size: 1.1em;}
-<<<<<<< HEAD
-#main {font-size: 1.3em; padding: 1em 0;}
-=======
 #main {background:transparent; font-size: 1.3em; padding: 1em 0;}
->>>>>>> Base Styling Updates
 
 #nav {background: #205C90;	text-align: left; color: #ffffff;}
 #nav a {color: #ffffff;}
