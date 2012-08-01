@@ -12,7 +12,7 @@ jQuery("#searchbt a").attr({
 	 
 jQuery('#searchbt a').prepOverlay({
                 subtype: 'ajax',
-                filter: '#content>*',
+                filter: '#content>*'
                 });
 
 
